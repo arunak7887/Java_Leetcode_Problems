@@ -1,0 +1,15 @@
+Remove a character from a string in Java
+
+
+Code:
+
+public class Remove_character {
+    public static void main(String[] args) {
+        String str="abc ABC 123 abc";
+        System.out.println("String after removing all the 'a' s"+str.replace("a",""));
+    }
+}
+
+output:
+
+String after removing all the 'a' sbc ABC 123 bc
