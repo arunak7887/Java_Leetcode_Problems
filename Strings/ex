@@ -1,0 +1,72 @@
+
+Remove_spaces.java
+
+// Remove spaces from a string in Java
+
+Code:
+public class Remove_spaces {
+    public static void main(String[] args) {
+        String str = "abc ABC 123 abc";
+        // Remove spaces from a string in Java
+        System.out.println("String after removing all the spaces = "+str.replace(" ", ""));
+    }
+}
+
+output:
+String after removing all the spaces = abcABC123abc
+
+
+Remove_substring.java
+
+// Remove a substring from a string in Java
+
+code:
+public class Remove_substring {
+    public static void main(String[] args) {
+        String str = "abc ABC 123 abc";
+        System.out.println("String after removing the first 'ab' substring = "+str.replaceFirst("ab", ""));
+
+    }
+}
+
+output:
+String after removing the first 'ab' substring = c ABC 123 abc
+
+Remove_all_lowercase.java 
+
+
+
+public class Remove_all_lowercase {
+    public static void main(String[] args) {
+        String str = "abc ABC 123 abc";
+        System.out.println("String after removing all the lowercase letters = "+str.replaceAll("([a-z])", ""));
+
+    }
+}
+
+String after removing all the lowercase letters =  ABC 123 
+
+
+
+
+
+Remove_last_character.java
+
+// Remove the last character from a string in Java
+
+public class Remove_last_character {
+    public static void main(String[] args) {
+        String str = "abc ABC 123 abc";
+        System.out.println("String after removing the last character = "+str.substring(0, str.length()-1));
+    }
+}
+output:
+ String after removing the last character = abc ABC 123 ab
+
+
+
+
+
+
+
+
