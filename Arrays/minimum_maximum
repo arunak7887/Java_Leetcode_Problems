@@ -1,0 +1,38 @@
+class Array{
+  public static void main(String args[]){
+    int a[]={1,423,6,46,34,23,13,53,4};
+    Arrays.sort(a);
+    System.out.println("min="+a[0]+" "+"max="+arr[a.length-1]);
+  }
+}
+
+**********************************************************************************************
+class GFG {
+ 
+    static int getMin(int arr[], int n)
+    {
+        int res = arr[0];
+        for (int i = 1; i < n; i++)
+            res = Math.min(res, arr[i]);
+        return res;
+    }
+ 
+    static int getMax(int arr[], int n)
+    {
+        int res = arr[0];
+        for (int i = 1; i < n; i++)
+            res = Math.max(res, arr[i]);
+        return res;
+    }
+ 
+    // Driver code
+    public static void main(String[] args)
+    {
+        int arr[] = { 12, 1234, 45, 67, 1 };
+        int n = arr.length;
+        System.out.println("Minimum element of array: " + getMin(arr, n));
+        System.out.println("Maximum element of array: " + getMax(arr, n));
+    }
+}
+
+*******************************************************************************
