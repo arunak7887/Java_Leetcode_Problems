@@ -1,0 +1,18 @@
+Q]Print The Elements By Using For Each Loop?
+
+public class Print_Elements_For_Each {
+	public static void main(String[] args) {
+		int arr[]=new int[7];
+		arr[0]=42;
+		arr[1]=12;
+		arr[2]=31;
+		arr[3]=56;
+		arr[4]=10;
+		arr[5]=55;
+		arr[6]=51;
+		System.out.println("Print The Elements By Using For Each Loop:");
+		for(int e:arr) {
+			System.out.println(e);
+		}
+	}
+}
