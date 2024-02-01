@@ -1,0 +1,18 @@
+// write print sum of numbers from 1 to 100 by using recursion
+import java.util.*;
+public class Sum_Numbers_1_To_100_Recursion {
+	public static void main(String[] args) {
+		Scanner sc=new Scanner(System.in);
+		System.out.println("Enter the numbers:");
+		int x=sc.nextInt();
+		System.out.println("The Sum Upto "+x+ " numers is="+GetSum(x));
+	}
+	public static int GetSum(int x) {
+		if(x>1) {
+			return x+GetSum(x-1);
+			
+		}else {
+			return x;		
+		}
+	}
+}
