@@ -1,0 +1,21 @@
+Problem Link: https://www.codechef.com/problems/PUZHUNT
+
+Code:
+import java.util.*;
+import java.lang.*;
+import java.io.*;
+class Codechef
+{
+	public static void main (String[] args) throws java.lang.Exception
+	{
+		Scanner sc=new Scanner(System.in);
+		int a=sc.nextInt();
+		if(a==6 || a==7 || a==8){
+		    System.out.println("Yes");
+		}else{
+		    System.out.println("No");
+		}
+	}
+}
+
+
