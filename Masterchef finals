@@ -1,0 +1,22 @@
+Problem Link:https://www.codechef.com/problems/TOP10?tab=statement
+
+import java.util.*;
+import java.lang.*;
+import java.io.*;
+class Codechef
+{
+	public static void main (String[] args) throws java.lang.Exception
+	{
+		Scanner sc=new Scanner(System.in);
+		int a=sc.nextInt();
+		int b;
+		for(int i=0;i<a;i++){
+		    b=sc.nextInt();
+		    if(b>10){
+		        System.out.println("NO");
+		    }else{
+		        System.out.println("YES");
+		    }
+		}
+	}
+}
